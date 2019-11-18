@@ -164,7 +164,7 @@ def mergePngs(currCSV):
 	out_name = currCSV.split('.')[0] + ".gif"
 	percentComplete = 0
 
-	with imageio.get_writer(out_name, mode='I', loop = 1, fps=70, palettesize=32, subrectangles = True ) as writer:
+	with imageio.get_writer(out_name, mode='I', loop = 1, fps=70, palettesize=32, subrectangles = True ) as writer: # Change loop = 0 for infinite loop
 		for i in range(1, CSV_ITER+1):
 			pngName = INTERMEDIATE_PATH + str(i) + ".png"
 			image = imageio.imread(pngName)
