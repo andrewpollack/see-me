@@ -1,6 +1,9 @@
 Example Output:
-![](./finalOutput/exampleOne.gif)
+![](/finalOutput/exampleOne.gif)
 
+The left animation is a top-down view, where the person's head is the black circle, with lines coming from their head representing their field of vision,
+ and there are two red hands connected to the head.
+The right animation is a profile view, used to detect whether they are looking up or down.
 
 -----
 
